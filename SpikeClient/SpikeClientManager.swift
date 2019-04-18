@@ -32,7 +32,7 @@ public class SpikeClientManager: CGMManager {
         }
     }
 
-    public static let localizedTitle = LocalizedString("Spike", comment: "Title for the CGMManager option")
+    public static let localizedTitle = LocalizedString("NS ShareServer", comment: "Title for the CGMManager option")
 
     public let appURL: URL? = URL(string: "spikeapp://")
 
