@@ -23,11 +23,9 @@ extension SpikeService: ServiceAuthenticationUI {
                 keyboardType: .asciiCapable
             ),
             ServiceCredential(
-                title: LocalizedString("Server", comment: "The title of the Dexcom share server URL credential"),
+                title: LocalizedString("NS ShareServer", comment: "The title of the NS share server URL credential"),
                 isSecret: false,
-                options: [
-                    (title: LocalizedString("Spike", comment: "Spike server option title"),
-                     value: KnownSpikeServers.LOCAL_SPIKE.rawValue)
+                keyboardType: .asciiCapable
                     
                 ]
             )
