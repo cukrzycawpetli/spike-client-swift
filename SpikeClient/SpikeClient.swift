@@ -30,7 +30,7 @@ public enum SpikeError: Error {
 
 
 public enum KnownSpikeServers: String {
-    case LOCAL_SPIKE="http://127.0.0.1:1979"
+    case LOCAL_SPIKE="CUSTOM"
     
 
 }
