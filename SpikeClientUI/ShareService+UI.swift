@@ -26,8 +26,6 @@ extension SpikeService: ServiceAuthenticationUI {
                 title: LocalizedString("NS ShareServer", comment: "The title of the NS share server URL credential"),
                 isSecret: false,
                 keyboardType: .asciiCapable
-                    
-                ]
             )
         ]
     }
